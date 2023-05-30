@@ -4,7 +4,6 @@ const supplierSchema = new Schema(
   {
     name: {
       type: String,
-      required: [true, 'Set name for contact'],
     },
     logo: {
       type: String,
@@ -12,11 +11,14 @@ const supplierSchema = new Schema(
     location: {
       type: String,
     },
+    products: {
+      type: Array,
+    },
   },
   { versionKey: false, timestamps: true }
 );
 supplierSchema.post('save', handleMongooseError);
 
-const Suppliers = model('contact', supplierSchema);
+const Suppliers = model('suppliers', supplierSchema);
 
 module.exports = { Suppliers };
