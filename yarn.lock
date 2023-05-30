@@ -2106,7 +2106,7 @@
     "jest-message-util" "^29.5.0"
     "jest-util" "^29.5.0"
 
-"express@4.17.1":
+"express@^4.17.1":
   "integrity" "sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.17.1.tgz"
   "version" "4.17.1"
@@ -3603,7 +3603,7 @@
   "resolved" "https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.2.tgz"
   "version" "6.9.2"
 
-"nodemon@2.0.15":
+"nodemon@^2.0.15":
   "integrity" "sha512-gdHMNx47Gw7b3kWxJV64NI+Q5nfl0y5DgDbiVtShiwa7Z0IZ07Ll4RLFo6AjrhzMtoEZn5PDE3/c2AbVsiCkpA=="
   "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.15.tgz"
   "version" "2.0.15"
